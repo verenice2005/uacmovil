@@ -18,27 +18,13 @@
       <a href="#" class="brand-logo">UACMovil</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="sass.html">Ingresar</a></li>
-        <li><a href="registro.php">Registrarse</a></li>
+        <li><a href="badges.html">Registrarse</a></li>
         <li><a href="collapsible.html">Rutas</a></li>
       </ul>
     </div>
   </nav>
 
-  <!--  pagina principal-->
-
-    <div class="parallax-container" >
-      <div class="parallax"><img src="images/DSC_0439.JPG"></div>
-    </div>
-    <div class="section teal">
-      <div class="row container">
-        <h2 class="header">App UACMovil</h2>
-        <p class="white-text">UACMovil consiste en una app de un nuevo sistema de transporte que estará incorporado a la UACM, la cual permitirá que los estudiantes que lo deseen se puedan convertir en socios y de esta manera tengan una fuente de ingresos.Por otro lado los usuarios podrán gozar de un servicio digno, preferente y a precio accesible. Esta app consiste en que el usuario podrá solicitar transporte del plantel Cuautepec, hasta el destino elegido y viceversa. Los asociados (conductores) seran los mismos estudiantes del plantel, los pagos se realizaran en efectivo o tarjeta de credito/debito. </p>
-      </div>
-    </div>
-    <div class="parallax-container">
-      <div class="parallax"><img src="images/DSC_0463.JPG"></div>
-    </div>
-     <!--  termina pagina principal-->   
+  
         
 
 
