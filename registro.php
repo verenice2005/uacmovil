@@ -64,7 +64,12 @@
           <label for="amaterno">APELLIDO MATERNO </label>
         </div>
       </div>
-         
+         <div class="row">
+        <div class="input-field col s12 m12 l12">
+          <input placeholder="INGRESA TU MATRICULA ESCOLAR" id="matricula" type="text" class="validate">
+          <label for="matricula">MATRICULA</label>
+        </div>
+        </div>
          <div class="row">
 
            <div class="input-field col s12 m12 l12">
@@ -136,31 +141,36 @@
   <!-- Modal Structure -->
   <div id="modal2" class="modal">
     <div class="modal-content">
-      <h4>Modal He</h4>
+      <h4> REGISTRO DE USUARIOS</h4>
       <p>                   
         <div class="row">
         <div class="input-field col s12 m12 l12">
-          <input placeholder="INGRESA NOMBRE(S)" id="nombre" type="text" class="validate">
-          <label for="nombre">NOMBRE(S)</label>
+          <input placeholder="INGRESA NOMBRE(S)" id="nombreu" type="text" class="validate">
+          <label for="nombreu">NOMBRE(S)</label>
         </div>
         </div>
        <div class="row">
          <div class="input-field col s12 m6 l6">
-          <input placeholder="INGRESA APELLIDO" id="apaterno" type="text" class="validate">
-          <label for="apaterno">APELLIDO PATERNO</label>
+          <input placeholder="INGRESA APELLIDO" id="apaternou" type="text" class="validate">
+          <label for="apaternou">APELLIDO PATERNO</label>
         </div>
 
          <div class="input-field col s12 m6 l6">
-          <input placeholder="INGRESA APELLIDO" id="amaterno" type="text" class="validate">
-          <label for="amaterno">APELLIDO MATERNO </label>
+          <input placeholder="INGRESA APELLIDO" id="amaternou" type="text" class="validate">
+          <label for="amaternou">APELLIDO MATERNO </label>
         </div>
       </div>
-
+     <div class="row">
+            <div class="input-field col s12 m12 l12">
+              <input placeholder="INGRESA TU MATRICULA ESCOLAR" id="matriculau" type="text" class="validate">
+              <label for="matriculau">MATRICULA</label>
+            </div>
+            </div>
        <div class="row">
 
            <div class="input-field col s12 m12 l12">
-          <input placeholder="TELÉFONO" id="telefono" type="text" class="validate">
-          <label for="telefono">TELÉFONO</label>
+          <input placeholder="TELÉFONO" id="telefonou" type="text" class="validate">
+          <label for="telefonou">TELÉFONO</label>
         </div>
 
          </div>
