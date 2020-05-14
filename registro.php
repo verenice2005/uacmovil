@@ -17,8 +17,8 @@
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">UACMovil</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Ingresar</a></li>
-        <li><a href="badges.html">Registrarse</a></li>
+        <li><a href="ingresar.php">Ingresar</a></li>
+        <li><a href="#!">Registrarse</a></li>
         <li><a href="collapsible.html">Rutas</a></li>
       </ul>
     </div>

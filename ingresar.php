@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>UACMovil</title>
-	<!--Import Google Icon Font-->
+  <title>UACMovil</title>
+  <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
@@ -15,16 +15,125 @@
  
   <nav class="teal">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">UACMovil</a>
+      <a href="#" class="brand-logo">UACMovil - INGRESAR</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Ingresar</a></li>
-        <li><a href="badges.html">Registrarse</a></li>
+        <li><a href="#!">Ingresar</a></li>
+        <li><a href="registro.php">Registrarse</a></li>
         <li><a href="collapsible.html">Rutas</a></li>
       </ul>
     </div>
   </nav>
+<!--asociados-->
+  <div class="container"> 
+       
+       <div class="row">
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image" style="height: 220px;">
+                <img src="images/conductor.jpg">
+                <span class="card-title">ASOCIADOS</span>
+              </div>
+              <div class="card-content">
+              </div>
+              <div class="card-action  center-align">
+               
 
-  
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">INGRESAR</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Ingreso de Asociados</h4>
+      <p>                    
+        
+        <div class="row">
+          <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">CORREO ELECTRONICO</label>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">CONTRASEÑA</label>
+        </div>
+      </div>
+
+      </p>
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="waves-effect waves-green btn green">INGRESAR</a>
+      <a href="#!" class="modal-close waves-effect waves-green red btn">CANCELAR</a>
+    </div>
+  </div>
+          
+
+              </div>
+            </div>
+          </div>
+<!--cierra asociados-->
+
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-image" style="height: 220px;">
+                <img src="images/usuario.png" style="height: 225px;">
+                <span class="card-title">USUARIOS</span>
+              </div>
+              <div class="card-content">
+                
+              </div>
+              <div class="card-action center-align">
+                
+                  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal2">INGRESAR</a>
+
+  <!-- Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4> Ingreso de Usuarios</h4>
+      <p>                   
+        
+
+        <div class="row">
+          <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">CORREO ELECTRONICO</label>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">CONTRASEÑA</label>
+        </div>
+      </div>
+      </p>
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="waves-effect waves-green btn green">INGRESAR</a>
+      <a href="#!" class="modal-close waves-effect waves-green red btn">CANCELAR</a>
+    </div>
+  </div>
+         
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+  </div>
+
+
+
+
+
+  </div>
         
 
 
