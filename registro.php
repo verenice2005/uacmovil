@@ -15,11 +15,11 @@
  
   <nav class="teal">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">UACMovil</a>
+      <a href="#" class="brand-logo">UACMovil-Registro</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="ingresar.php">Ingresar</a></li>
         <li><a href="#!">Registrarse</a></li>
-        <li><a href="collapsible.html">Rutas</a></li>
+        <li><a href="rutas.php">Rutas</a></li>
       </ul>
     </div>
   </nav>

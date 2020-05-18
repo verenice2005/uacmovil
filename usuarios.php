@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>UACMovil</title>
-	<!--Import Google Icon Font-->
+  <title>UACMovil</title>
+  <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
@@ -11,37 +11,71 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 </head>
-<body>
+<body style="background-color:teal;">
  
   <nav class="teal">
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">UACMovil</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="ingresar.php">Ingresar</a></li>
-        <li><a href="registro.php">Registrarse</a></li>
+        <li><a href="registrarse.php">Registrarse</a></li>
         <li><a href="rutas.php">Rutas</a></li>
       </ul>
     </div>
   </nav>
+<!--contenido de conductores y rutas-->
+ <div class="slider">
+    <ul class="slides">
+      <!--ruta 1-->
+      <li>
+        <img src="images/w.jpg"> <!-- random image -->
+        <div class="caption right-align">
+     <h2 class="light black-text text-lighten-3">
+          <br>Ruta - Walmart.</h2>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Información
+        <i class="material-icons right">send</i>
+       </button>
 
-  <!--  pagina principal-->
+        </div>
+      </li>
 
-    <div class="parallax-container" >
-      <div class="parallax"><img src="images/DSC_0439.JPG"></div>
-    </div>
-    <div class="section teal">
-      <div class="row container">
-        <h2 class="header">App UACMovil</h2>
-        <p class="white-text">UACMovil consiste en una app de un nuevo sistema de transporte que estará incorporado a la UACM, la cual permitirá que los estudiantes que lo deseen se puedan convertir en socios y de esta manera tengan una fuente de ingresos.Por otro lado los usuarios podrán gozar de un servicio digno, preferente y a precio accesible. Esta app consiste en que el usuario podrá solicitar transporte del plantel Cuautepec, hasta el destino elegido y viceversa. Los asociados (conductores) seran los mismos estudiantes del plantel, los pagos se realizaran en efectivo o tarjeta de credito/debito. </p>
-      </div>
-    </div>
-    <div class="parallax-container">
-      <div class="parallax"><img src="images/DSC_0463.JPG"></div>
-    </div>
-     <!--  termina pagina principal-->   
-        
+<!--ruta 2-->
+      <li>
+        <img src="images/p.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h2 class="light black-text text-lighten-3">Ruta - Progreso.</h2>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Información
+        <i class="material-icons right">send</i>
+       </button>
+        </div>
+      </li>
+      <!--ruta 3-->
+      <li>
+        <img src="images/po.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h2 class="light black-text text-lighten-3"><br>Ruta - Politecnico.</h2>
+          <button class="btn waves-effect left-light" type="submit" name="action">Información
+        <i class="material-icons right">send</i>
+       </button>
+        </div>
+      </li>
+      <!--ruta 4-->
+      <li>
+        <img src="images/R.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h2 class="light black-text text-lighten-3">Ruta - La Raza.</h2>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Información
+        <i class="material-icons right">send</i>
+       </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+   
+  
+ <!--cierra contenido de conductores y rutas--> 
 
-
+<!--pie de pagina-->
         <footer class="page-footer teal">
           <div class="container">
             <div class="row">
