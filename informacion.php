@@ -36,18 +36,18 @@
   <h4><i class="material-icons">attach_file</i>
   INFORMACION DE CONDUCTOR
   </h4>
-  <h5>Nombre: </h5>
-  <h5>Numero de placas: </h5>
+  <h5>Nombre: <span> Verenice MArtinez Sosa </span></h5> 
+  <h5>Numero de placas: <span> 29-11-17A </span> </h5>
 
   <h4><i class="material-icons">place</i>
   RUTAS  
   </h4>
-  <h5>Ruta: </h5>
+  <h5>Ruta: <span> La Raza </span> </h5>
 
   <h4><i class="material-icons">access_time</i>
   HORARIOS DE SALIDA  
   </h4>
-  <h5>Horario: </h5>
+  <h5>Horario: <span>  1:00 pm </span> </h5>
         </div>
 
 
