@@ -23,20 +23,38 @@
       </ul>
     </div>
   </nav>
+  <br>
 <!-- imagen -->
   <div class="row">
-        <div class="input-field col s12 m6 l6">
-          <img src="images/persona.jpg"> 
+        <div class="col s12 m3 l3">
+          <img width="300px" height="300px" src="images/persona.jpg"> 
         </div>
+     <!-- datos -->   
+  <div class="col s12 m9 l9">
+       
+  
+  <h4><i class="material-icons">attach_file</i>
+  INFORMACION DE CONDUCTOR
+  </h4>
+  <h5>Nombre: </h5>
+  <h5>Numero de placas: </h5>
+
+  <h4><i class="material-icons">place</i>
+  RUTAS  
+  </h4>
+  <h5>Ruta: </h5>
+
+  <h4><i class="material-icons">access_time</i>
+  HORARIOS DE SALIDA  
+  </h4>
+  <h5>Horario: </h5>
         </div>
 
-          <div class="row">
-        <div class="input-field col s12 m6 l6">
-          <img src="images/persona.jpg"> 
-        </div>
-        </div>
 
-<!-- cierra imagen -->
+        </div>
+      
+
+
 
 
 

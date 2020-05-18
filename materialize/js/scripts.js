@@ -3,4 +3,5 @@
     $('.modal').modal(); 
     $('.carousel').carousel();
     $('.slider').slider();
+     $('.collapsible').collapsible();
   });
